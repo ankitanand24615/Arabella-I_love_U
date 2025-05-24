@@ -3,12 +3,12 @@ function showFunction() {
     document.getElementById("enable").style.display = "inline"; 
 }
 
-setTimeout("showFunction()", 3000);
+setTimeout("showFunction()", 1000);
 
 //Disappearing the "loading button"
 setTimeout(function(){
     document.getElementById('disable').style.display ='none'
-    },3000);
+    },1000);
 
 //Linking to second page
 function myFunction() {
