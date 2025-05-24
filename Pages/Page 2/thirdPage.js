@@ -3,7 +3,7 @@ function showFunction() {
     document.getElementById("enable").style.display = "inline"; 
 }
 
-setTimeout("showFunction()", 3000);
+setTimeout("showFunction()", 300);
 
 //Disappearing the "loading button"
 setTimeout(function(){
